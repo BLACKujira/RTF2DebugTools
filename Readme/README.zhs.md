@@ -34,7 +34,7 @@
 
 ### 重置FOV
 - 默认按键：`F7`
-- 将当前相机的FOV设置为32，这是默认的相机FOV.
+- 将当前相机的FOV设置为32，这是默认的相机FOV。
 
 ## 安装教程
 1. 按照 [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) 及其文档中的教程安装UE4SS v3.0.0，并升级到v3.0.1
@@ -53,4 +53,4 @@
 ## 修改按键绑定
 1. 用任意文本编辑器或IDE打开 `RTypeFinal2\Binaries\Win64\Mods\RTF2DebugTools\Scripts\main.lua`
 2. 导航到文件最下方，这是将按键和功能关联起来的地方
-3. 参照 [Key - UE4SS Documentation](https://docs.ue4ss.com/dev/lua-api/table-definitions/key.html) 修改按键吧，相信即使你没有学过编程、也能看出其中的关联！
+3. 参照 [Key - UE4SS Documentation](https://docs.ue4ss.com/dev/lua-api/table-definitions/key.html) 修改按键吧。相信即使你没有学过编程，也能看出其中的关联！
