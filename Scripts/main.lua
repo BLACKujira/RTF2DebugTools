@@ -1,6 +1,6 @@
 print("RTF2 Debug Tools loaded")
 
---切换无敌
+-- 切换无敌
 -- Toggle invincibility mode
 -- 無敵モードを切り替える
 local function SwitchInvincibility()
@@ -15,7 +15,7 @@ local function SwitchInvincibility()
     end
 end
 
---增加1050卷轴速度
+-- 增加1050卷轴速度
 -- Increase scroll speed by 1050
 -- スクロール速度を1050増加させる
 local function IncreaseScrollSpeed()
@@ -30,7 +30,7 @@ local function IncreaseScrollSpeed()
     end
 end
 
---减少1050卷轴速度
+-- 减少1050卷轴速度
 -- Decrease scroll speed by 1050
 -- スクロール速度を1050減少させる
 local function DecreaseScrollSpeed()
@@ -45,7 +45,7 @@ local function DecreaseScrollSpeed()
     end
 end
 
---切换开启/停止卷轴
+-- 切换开启/停止卷轴
 -- Toggle scroll enable state
 -- スクロールの有効状態を切り替える
 local function SwitchScrollEnable()
@@ -60,7 +60,7 @@ local function SwitchScrollEnable()
     end
 end
 
---将卷轴速度设置为1050（大多数关卡的默认速度）
+-- 将卷轴速度设置为1050（大多数关卡的默认速度）
 -- Set scroll speed to 1050 (default for most levels)
 -- スクロール速度を1050に設定する（ほとんどのレベルのデフォルト速度）
 local function Set1050ScrollSpeed()
@@ -75,7 +75,7 @@ local function Set1050ScrollSpeed()
     end
 end
 
---高FOV模式
+-- 高FOV模式
 -- Enable high FOV mode (field of view)
 -- 高FOVモードを有効にする（視野角）
 local function HighFOVMode()
@@ -89,7 +89,7 @@ local function HighFOVMode()
     end
 end
 
---重置FOV
+-- 重置FOV
 -- Reset FOV to default
 -- FOVをデフォルトにリセットする
 local function ResetFOV()
@@ -103,6 +103,9 @@ local function ResetFOV()
     end
 end
 
+-- 在这里修改按键绑定
+-- Change key bindings here
+-- ここでキーバインドを変更する
 RegisterKeyBind(Key.F1, SwitchInvincibility)
 RegisterKeyBind(Key.F2, DecreaseScrollSpeed)
 RegisterKeyBind(Key.F3, IncreaseScrollSpeed)
