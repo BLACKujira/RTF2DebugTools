@@ -37,9 +37,9 @@
 - 現在のカメラのFOVを32にリセットします。これはデフォルト値です。
 
 ## インストール方法
-1. まだ *UE4SS* をインストールしていない場合は、[UE4SSのインストール](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/jp/InstallingUE4SS.md) のガイドに従って、*UE4SS v3.0.0* をインストールし、*v3.0.1* にアップデートしてください。
-2. [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) セクションから `RTF2DebugTools.zip` をダウンロードします。
-3. [LUA Modのインストール](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/jp/InstallingLUAMod.md) の手順に従って、このModをインストールします。
+1. まだ *UE4SS* をインストールしていない場合は、[UE4SSのインストール](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/ja/UE4SS%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.md) のガイドに従って、*UE4SS v3.0.0* をインストールし、*v3.0.1* にアップデートしてください。
+2. [Releases](https://github.com/BLACKujira/RTF2DebugToolsMod/releases) セクションから `RTF2DebugTools.zip` をダウンロードします。
+3. [LUA Modのインストール](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/ja/LUAMod%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.md) の手順に従って、このModをインストールします。
 4. 正しくインストールされている場合、ゲームを起動するとUE4SSコンソールに以下の出力が表示されます：
 ```
 [xx:xx:xx] Starting Lua mod 'RTF2DebugTools'

@@ -40,8 +40,8 @@ This is a simple debugging tool designed for *R-Type Final 2* core players, Wiki
 
 ## Installation Guide
 1. If you haven't installed *UE4SS* yet, follow the [Installing UE4SS](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingUE4SS.md) guide to install *UE4SS v3.0.0* and update it to *v3.0.1*.
-2. Download `RTF2DebugTools.zip` from the [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) section.
-3. Follow the [Installing LUA Mods](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingLUAMod.md) guide to install this mod.
+2. Download `RTF2DebugTools.zip` from the [Releases](https://github.com/BLACKujira/RTF2DebugToolsMod/releases) section.
+3. Follow the [Installing LUA Mods](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingLUAMods.md) guide to install this mod.
 4. If installed correctly, you should see the following output in the UE4SS console when the game is launched:
 ```
 [xx:xx:xx] Starting Lua mod 'RTF2DebugTools'

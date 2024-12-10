@@ -38,7 +38,7 @@
 
 ## 安装教程
 1. 如果你还没有安装 *UE4SS* ，请按照 [安装UE4SS](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/zhs/%E5%AE%89%E8%A3%85UE4SS.md) 中的教程安装 *UE4SS v3.0.0* ，并升级到 *v3.0.1*
-2. 下载 [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) 中的 `RTF2DebugTools.zip`
+2. 下载 [Releases](https://github.com/BLACKujira/RTF2DebugToolsMod/releases) 中的 `RTF2DebugTools.zip`
 3. 按照 [安装LUA Mod](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/zhs/%E5%AE%89%E8%A3%85LUAMod.md) 中的教程安装这个Mod
 4. 如果安装成功，运行游戏后将在UE4SS的控制台中可以看到这样的输出：
 ```
