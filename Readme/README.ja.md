@@ -1,5 +1,5 @@
 # R-Type Final 2 用デバッグツール
-これは、R-Type Final 2 のコアプレイヤー、Wiki執筆者、Mod開発者向けに設計された簡単なデバッグツールです。よく使われる機能をショートカットキーにまとめ、便利に呼び出せるようにしています。  
+これは、*R-Type Final 2* のコアプレイヤー、Wiki執筆者、Mod開発者向けに設計された簡単なデバッグツールです。よく使われる機能をショートカットキーにまとめ、便利に呼び出せるようにしています。  
 - **このModを不正競争目的で使用しないでください。**
 
 ## 機能
@@ -37,18 +37,17 @@
 - 現在のカメラのFOVを32にリセットします。これはデフォルト値です。
 
 ## インストール方法
-1. [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) のドキュメントを参照してUE4SS v3.0.0 をインストールし、v3.0.1にアップデートします。
-2. Releasesセクションから `RTF2DebugTools.zip` をダウンロードします。
-3. `RTF2DebugTools.zip` 内の `RTF2DebugTools` フォルダを、ゲームディレクトリの `RTypeFinal2\Binaries\Win64\Mods` にコピーします。
-4. `RTypeFinal2\Binaries\Win64\Mods\mods.txt` を開き、Modリストの下部で `; Built-in keybinds, do not move up!` の上に以下の行を追加します：  `RTF2DebugTools : 1`
-5. 正しくインストールされている場合、UE4SSコンソールに以下のような出力が表示されます：
+1. まだ *UE4SS* をインストールしていない場合は、[UE4SSのインストール](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/jp/InstallingUE4SS.md) のガイドに従って、*UE4SS v3.0.0* をインストールし、*v3.0.1* にアップデートしてください。
+2. [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) セクションから `RTF2DebugTools.zip` をダウンロードします。
+3. [LUA Modのインストール](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/jp/InstallingLUAMod.md) の手順に従って、このModをインストールします。
+4. 正しくインストールされている場合、ゲームを起動するとUE4SSコンソールに以下の出力が表示されます：
 ```
 [xx:xx:xx] Starting Lua mod 'RTF2DebugTools'
 [xx:xx:xx] [Lua] RTF2 Debug Tools loaded
 ```
 
 ## 注意点
-- UE4SS のデバッグウィンドウが空白の場合、`RTypeFinal2\Binaries\Win64\UE4SS-settings.ini` の `GraphicsAPI` の値を `dx11` に設定してください。
+- *UE4SS* の古いバージョンでもこのModが動作する可能性があります。
 
 ## キーバインドを変更する方法
 1. 任意のテキストエディタまたはIDEを使用して `RTypeFinal2\Binaries\Win64\Mods\RTF2DebugTools\Scripts\main.lua` を開きます。

@@ -1,5 +1,5 @@
 # 为 R-Type Final 2 设计的调试工具
-这是一个为R-Type Final 2核心玩家、Wiki编写者和Mod开发者设计的简单调试工具。它将一些常用的功能整理为快捷键，方便用户调用。
+这是一个为 *R-Type Final 2* 核心玩家、Wiki编写者和Mod开发者设计的简单调试工具。它将一些常用的功能整理为快捷键，方便用户调用。
 - **请不要将这个Mod用作不正当竞争目的**
 
 ## 功能
@@ -37,18 +37,17 @@
 - 将当前相机的FOV设置为32，这是默认的相机FOV。
 
 ## 安装教程
-1. 按照 [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) 及其文档中的教程安装UE4SS v3.0.0，并升级到v3.0.1
-2. 下载 Releases 中的 `RTF2DebugTools.zip`
-3. 将 `RTF2DebugTools.zip` 中的 `RTF2DebugTools` 文件夹复制到游戏目录下的 `RTypeFinal2\Binaries\Win64\Mods` 中
-4. 打开 `RTypeFinal2\Binaries\Win64\Mods\mods.txt` ，在Mod列表下方、 `; Built-in keybinds, do not move up!` 上方添加一条 `RTF2DebugTools : 1`
-5. 如果安装成功，在UE4SS的控制台中可以看到这样的输出：
+1. 如果你还没有安装 *UE4SS* ，请按照 [安装UE4SS](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/zhs/%E5%AE%89%E8%A3%85UE4SS.md) 中的教程安装 *UE4SS v3.0.0* ，并升级到 *v3.0.1*
+2. 下载 [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) 中的 `RTF2DebugTools.zip`
+3. 按照 [安装LUA Mod](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/zhs/%E5%AE%89%E8%A3%85LUAMod.md) 中的教程安装这个Mod
+4. 如果安装成功，运行游戏后将在UE4SS的控制台中可以看到这样的输出：
 ```
 [xx:xx:xx] Starting Lua mod 'RTF2DebugTools'
 [xx:xx:xx] [Lua] RTF2 Debug Tools loaded
 ```
 
 ## 注意点
-- 如果UE4SS的调试窗口为一片空白，请将 `RTypeFinal2\Binaries\Win64\UE4SS-settings.ini` 中 `GraphicsAPI` 的值改为 `dx11`
+- 更低版本的 *UE4SS* 或许也能运行这个Mod。
 
 ## 修改按键绑定
 1. 用任意文本编辑器或IDE打开 `RTypeFinal2\Binaries\Win64\Mods\RTF2DebugTools\Scripts\main.lua`

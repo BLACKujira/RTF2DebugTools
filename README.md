@@ -1,7 +1,7 @@
 [简体中文](Readme/README.zhs.md) | [日本語](Readme/README.ja.md)
 
 # Debug Tools for R-Type Final 2
-This is a simple debugging tool designed for R-Type Final 2 core players, Wiki editors, and Mod developers. It organizes some common functions into hotkeys for convenient access.  
+This is a simple debugging tool designed for *R-Type Final 2* core players, Wiki editors, and Mod developers. It organizes some common functions into hotkeys for convenient access.  
 - **Please do not use this mod for unfair competitive purposes.**
 
 ## Features
@@ -39,18 +39,17 @@ This is a simple debugging tool designed for R-Type Final 2 core players, Wiki e
 - Resets the current camera's FOV to 32, the default value.
 
 ## Installation Guide
-1. Install UE4SS v3.0.0 and update to v3.0.1 following the [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) documentation.
-2. Download `RTF2DebugTools.zip` from the Releases section.
-3. Extract the `RTF2DebugTools` folder into the game's directory at `RTypeFinal2\Binaries\Win64\Mods`.
-4. Open `RTypeFinal2\Binaries\Win64\Mods\mods.txt` and add the following line below the mod list and above `; Built-in keybinds, do not move up!`:  `RTF2DebugTools : 1`
-5. If installed correctly, you should see the following output in the UE4SS console:
+1. If you haven't installed *UE4SS* yet, follow the [Installing UE4SS](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingUE4SS.md) guide to install *UE4SS v3.0.0* and update it to *v3.0.1*.
+2. Download `RTF2DebugTools.zip` from the [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) section.
+3. Follow the [Installing LUA Mods](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingLUAMod.md) guide to install this mod.
+4. If installed correctly, you should see the following output in the UE4SS console when the game is launched:
 ```
 [xx:xx:xx] Starting Lua mod 'RTF2DebugTools'
 [xx:xx:xx] [Lua] RTF2 Debug Tools loaded
 ```
 
 ## Notes
-- If the UE4SS debug window is blank, set the value of `GraphicsAPI` in `RTypeFinal2\Binaries\Win64\UE4SS-settings.ini` to `dx11`.
+- Older versions of *UE4SS* might also be able to run this mod.
 
 ## Changing Key Bindings
 1. Open `RTypeFinal2\Binaries\Win64\Mods\RTF2DebugTools\Scripts\main.lua` with any text editor or IDE.
